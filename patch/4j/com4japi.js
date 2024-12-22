@@ -193,8 +193,8 @@ com4j.config = {
     get ForJoy_gameid() {
         return window.hasOwnProperty("ForJoy_gameid") ? ForJoy_gameid : 293
     },
-    ForJoyH5_DefaultBigLogo: "/patch/images/games235-banner.png",
-    _ForJoyH5_BigLogo: "/patch/images/games235-banner.png",
+    ForJoyH5_DefaultBigLogo: "/patch/images/ucbg-banner.png",
+    _ForJoyH5_BigLogo: "/patch/images/ucbg-banner.png",
     get ForJoyH5_BigLogo() {
         if (this.ForJoyH5_stats === false) {
             return this.ForJoyH5_DefaultBigLogo
